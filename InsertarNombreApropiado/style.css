@@ -1,0 +1,69 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url("https://forums.terraria.org/index.php?attachments/n-2-png.31584/");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content{
+    padding: 3.5vw;
+    background-color: rgba(157, 159, 184, 0.719);
+    border-radius: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+}
+
+audio{
+    width: 100%;
+    margin-top:2vh;
+}
+
+#fileInput{
+    width: 100%;
+    margin-top: 2vh;
+    display: block;
+}
+
+.controls button{
+    background-color:rgb(62, 63, 78);
+    color: white;
+    border: none;
+    padding: 1.5vw 3vw;
+    font-size: 2vw;
+    cursor: pointer;
+    margin: 0 1vw;
+    border-radius: 1vw;
+}
+
+.controls button:hover{
+    background-color:rgb(120, 122, 150);
+    color:rgb(184, 186, 214);
+}
+
+#playlist{
+    list-style: none;
+    padding: 0;
+    margin-top: 2vh;
+    max-height: 30vh;
+    overflow-y: auto;
+    text-align: left;
+}
+
+#playlist li{
+    background-color: gray;
+    padding: 1vw 2vw;
+    margin-bottom: 1vh;
+    border-radius: 1vh;
+    cursor: pointer;
+    color: white;
+}
+
+#playlist li:active{
+    background-color: lightsteelblue;
+    color: black;
+}
